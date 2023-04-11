@@ -611,6 +611,21 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+    .blog__quote {
+        flex-direction: column;
+    }
+    .blog__quote-box {
+        flex-basis: auto;
+    }
+    .blog__quote-img {
+        order: -1;
+    }
+    .blog__item-img {
+        width: 100%;
+    }
+}
+
 @media (max-width: 669px) {
     .evo-white__inner::before {
         display: none;
